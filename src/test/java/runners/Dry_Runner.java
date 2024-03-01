@@ -12,7 +12,7 @@ import io.cucumber.junit.CucumberOptions;
 				"json:reports/cucumber_results.json"},
 		features ="./src/test/resources/features",
 		glue="step_definitions",
-		tags="@update_items",
+		tags="",
 		dryRun=true
 		)
 
