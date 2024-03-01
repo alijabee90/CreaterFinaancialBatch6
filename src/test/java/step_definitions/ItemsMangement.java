@@ -48,6 +48,7 @@ public class ItemsMangement {
 	public void i_provife_item_name_price_unit_and_description(String item_name, String item_price, String item_unit, String item_des) {
 		// in oreder to make the item uniqe eachtime, I'm adding random number to the item name before i send keys.
 		itemname = item_name + utils.randomNumber();
+		itemprice = item_price;
 		items_page.items_input_page_name_box.sendKeys(itemname);  
 		items_page.items_input_page_price_box.sendKeys(item_price);
 		
@@ -65,7 +66,9 @@ public class ItemsMangement {
 	}
 	@Then("The item is added to the item list table")
 	public void the_item_is_added_to_the_item_list_table() throws InterruptedException {
-		Thread.sleep(1000);
+		
+		items_page.item_page_success_message.click();
+		utils.waitForElementToBeVisible(items_page.items_page_filter_btn);
 	   items_page.items_page_filter_btn.click();
 	   utils.waitForElementToBeVisible(items_page.items_page_filter_name_box);
 	   items_page.items_page_filter_name_box.sendKeys(itemname);

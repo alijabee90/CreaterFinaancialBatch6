@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: runners.TestRuner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 20.981 sec <<< FAILURE!
+As a user, I am able to creat an item or service. #2(items Mangments)  Time elapsed: 20.14 sec  <<< ERROR!
+java.lang.StringIndexOutOfBoundsException: Range [0, 2) out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55)
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:213)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:210)
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckFromToIndex(Preconditions.java:112)
+	at java.base/jdk.internal.util.Preconditions.checkFromToIndex(Preconditions.java:349)
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4608)
+	at java.base/java.lang.String.substring(String.java:2720)
+	at step_definitions.ItemsMangement.the_item_is_added_to_the_item_list_table(ItemsMangement.java:77)
+	at ✽.The item is added to the item list table(file:///C:/Users/alija/OneDrive/Desktop/prime%20Tech/PrimetechJava/CreaterFinancialBatch6/./src/test/resources/features/ItemsManagmrnt.feature:23)
+

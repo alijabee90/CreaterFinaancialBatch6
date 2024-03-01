@@ -1,0 +1,10 @@
+step_definitions\Hooks.class
+step_definitions\ItemsMangement.class
+step_definitions\Access_Control_steps.class
+utils\Driver.class
+pages\items_page.class
+step_definitions\JavaFakerDemo.class
+pages\Dashboard_page.class
+pages\Access_control_page.class
+utils\BrowserUtils.class
+utils\DataReader.class

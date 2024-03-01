@@ -50,7 +50,8 @@ public class Access_Control_steps {
 	}
 	@Then("the Success message displays")
 	public void the_success_message_displays() {
-	   Assert.assertTrue(acp.login_successful_messag.isDisplayed());
+	Utils.waitForElementToBeVisible(acp.login_success_message);
+	   Assert.assertTrue(acp.login_success_message.isDisplayed());
 	}
 
 	// valid login variable steps

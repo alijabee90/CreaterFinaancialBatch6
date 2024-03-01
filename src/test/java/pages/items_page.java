@@ -71,5 +71,9 @@ public class items_page {
     
     @FindBy (xpath = "//button[text()=' Update Item']")
     public WebElement items_page_update_item_btn;
+    
+    @FindBy (xpath = "//p[text()='Success!']")
+    public WebElement item_page_success_message;
+    
 }
 

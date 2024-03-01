@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="runners.TestRuner" time="20.14" errors="1" skipped="0">
+  <properties>
+    <property name="jansi.mode" value="force"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="20+36-2344"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-20\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\alija\OneDrive\Desktop\prime Tech\PrimetechJava\CreaterFinancialBatch6"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\alija\OneDrive\Desktop\prime Tech\PrimetechJava\CreaterFinancialBatch6"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="20+36-2344"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\alija\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="classworlds.conf" value="C:\Users\alija\OneDrive\Desktop\prime Tech\PrimetechJava\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf14957987858090924271.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-20\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files/Java/jdk-20/bin/server;C:/Program Files/Java/jdk-20/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Java\jdk-20\bin;C:\Program Files\Git\cmd;C:\Users\alija\AppData\Local\Microsoft\WindowsApps;C:\Users\alija\AppData\Local\GitHubDesktop\bin;C:\ProgramData\alija\GitHubDesktop\bin;C:\Users\alija\OneDrive\Desktop;;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="64.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\alija"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="20"/>
+    <property name="user.name" value="alija"/>
+    <property name="java.class.path" value="C:\Users\alija\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="20"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -Dstyle.color=always install"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-20"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="20"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\alija\OneDrive\Desktop\prime Tech\PrimetechJava\CreaterFinancialBatch6\EMBEDDED"/>
+    <property name="style.color" value="always"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2023-03-21"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="m2e.build.project.data.socket.port" value="62149"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="items Mangments" name="As a user, I am able to creat an item or service. #2" time="20.14">
+    <error message="Range [0, 2) out of bounds for length 0" type="java.lang.StringIndexOutOfBoundsException">java.lang.StringIndexOutOfBoundsException: Range [0, 2) out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55)
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:213)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:210)
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckFromToIndex(Preconditions.java:112)
+	at java.base/jdk.internal.util.Preconditions.checkFromToIndex(Preconditions.java:349)
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4608)
+	at java.base/java.lang.String.substring(String.java:2720)
+	at step_definitions.ItemsMangement.the_item_is_added_to_the_item_list_table(ItemsMangement.java:77)
+	at ✽.The item is added to the item list table(file:///C:/Users/alija/OneDrive/Desktop/prime%20Tech/PrimetechJava/CreaterFinancialBatch6/./src/test/resources/features/ItemsManagmrnt.feature:23)
+</error>
+    <system-out>
+@reqreation @update_items @smoke_test
+Scenario: As a user, I am able to creat an item or service.                                            &amp;#27;[90m# src/test/resources/features/ItemsManagmrnt.feature:16&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mAs a &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;level1&quot;&amp;#27;[0m&amp;#27;[32m user, I am logged in&amp;#27;[0m                                                             &amp;#27;[90m# step_definitions.ItemsMangement.as_a_user_i_am_logged_in(java.lang.String)&amp;#27;[0m
+  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI navigate to items tap&amp;#27;[0m                                                                          &amp;#27;[90m# step_definitions.ItemsMangement.i_navigate_to_items_tap()&amp;#27;[0m
+  &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mI click on add item button&amp;#27;[0m                                                                      &amp;#27;[90m# step_definitions.ItemsMangement.i_click_on_add_item_button()&amp;#27;[0m
+  &amp;#27;[32mThen &amp;#27;[0m&amp;#27;[32mI should be on New Item  page&amp;#27;[0m                                                                   &amp;#27;[90m# step_definitions.ItemsMangement.i_should_be_on_new_item_page()&amp;#27;[0m
+  &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mI provife item name &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;coffee mug&quot;&amp;#27;[0m&amp;#27;[32m price &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;1200&quot;&amp;#27;[0m&amp;#27;[32m unit &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;pc&quot;&amp;#27;[0m&amp;#27;[32m and description &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;very weird coffee mug&quot;&amp;#27;[0m &amp;#27;[90m# step_definitions.ItemsMangement.i_provife_item_name_price_unit_and_description(java.lang.String,java.lang.String,java.lang.String,java.lang.String)&amp;#27;[0m
+  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI click Save Item button&amp;#27;[0m                                                                         &amp;#27;[90m# step_definitions.ItemsMangement.i_click_save_item_button()&amp;#27;[0m
+  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mThe item is added to the item list table&amp;#27;[0m                                                        &amp;#27;[90m# step_definitions.ItemsMangement.the_item_is_added_to_the_item_list_table()&amp;#27;[0m
+      &amp;#27;[31mjava.lang.StringIndexOutOfBoundsException: Range [0, 2) out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:55)
+	at java.base/jdk.internal.util.Preconditions$1.apply(Preconditions.java:52)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:213)
+	at java.base/jdk.internal.util.Preconditions$4.apply(Preconditions.java:210)
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:98)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckFromToIndex(Preconditions.java:112)
+	at java.base/jdk.internal.util.Preconditions.checkFromToIndex(Preconditions.java:349)
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:4608)
+	at java.base/java.lang.String.substring(String.java:2720)
+	at step_definitions.ItemsMangement.the_item_is_added_to_the_item_list_table(ItemsMangement.java:77)
+	at ✽.The item is added to the item list table(file:///C:/Users/alija/OneDrive/Desktop/prime%20Tech/PrimetechJava/CreaterFinancialBatch6/./src/test/resources/features/ItemsManagmrnt.feature:23)
+&amp;#27;[0m
+  &amp;#27;[36mWhen &amp;#27;[0m&amp;#27;[36mI update the item price with &amp;#27;[0m&amp;#27;[36m&amp;#27;[1m&quot;1500&quot;&amp;#27;[0m                                                             &amp;#27;[90m# step_definitions.ItemsMangement.i_update_the_item_price_with(java.lang.String)&amp;#27;[0m
+  &amp;#27;[36mThen &amp;#27;[0m&amp;#27;[36mThe item is added to the item list table&amp;#27;[0m                                                        &amp;#27;[90m# step_definitions.ItemsMangement.the_item_is_added_to_the_item_list_table()&amp;#27;[0m
+  &amp;#27;[36mAnd &amp;#27;[0m&amp;#27;[36mI deleted the item&amp;#27;[0m
+
+    Embedding screenshot [image/png 141408 bytes]
+
+</system-out>
+  </testcase>
+</testsuite>

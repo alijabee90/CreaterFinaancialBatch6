@@ -28,8 +28,8 @@ public WebElement login_loginBtn;
 @FindBy (linkText = "Forgot Password?")
 public WebElement login_forGot_Password_Link;
 
-@FindBy (xpath = "//p[text()='Success!'")
-public WebElement login_success_messag;
+@FindBy (xpath = "//p[text()='Success!']")
+public WebElement login_success_message;
 
 @FindBy (xpath = "//p[text()='Logged in Successfully.']") 
 public WebElement login_successful_messag;
