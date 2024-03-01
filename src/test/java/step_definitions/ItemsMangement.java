@@ -69,7 +69,9 @@ public class ItemsMangement {
 		
 		items_page.item_page_success_message.click();
 		utils.waitForElementToBeVisible(items_page.items_page_filter_btn);
-	   items_page.items_page_filter_btn.click();
+		
+		items_page.items_page_filter_btn.click();
+	 
 	   utils.waitForElementToBeVisible(items_page.items_page_filter_name_box);
 	   items_page.items_page_filter_name_box.sendKeys(itemname);
 	   

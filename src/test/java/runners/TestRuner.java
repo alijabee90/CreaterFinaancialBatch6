@@ -11,7 +11,8 @@ import io.cucumber.junit.CucumberOptions;
 				"json:reports/cucumber_results.json"},
 		features ="./src/test/resources/features",
 		glue="step_definitions",
-		tags="@reqreation"
+		tags="@reqreation "
+				
 		)
 
 public class TestRuner {
